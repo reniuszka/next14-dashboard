@@ -10,3 +10,4 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     </div>
   );
 }
+// Since <SideNav> is static, it's shown immediately. The user can interact with <SideNav> while the dynamic content is loading.
